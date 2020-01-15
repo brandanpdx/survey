@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,6 +8,7 @@
   <script src="js/scripts.js"></script>
   <title>Survey</title>
 </head>
+
 <body>
 
   <div class="container">
@@ -32,22 +34,28 @@
         </label>
       </div>
       <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="dog">
-            Dog
-          </label>
-        </div>
-        <select class="form-control" id="eggs">
-          <option>Scrambled</option>
-          <option>Over-Easy</option>
-          <option>Over-Medium</option>
-          <option>Over-Hard</option>
-          <option>Poached</option>
-          <option>Hard-Boiled</option>
-        </select>
-        <button type="submit" class="btn-info">Submit!</button>
+        <label>
+          <input type="radio" name="animal" value="dog">
+          Dog
+        </label>
+      </div>
+      <select class="form-control" id="eggs">
+        <option>Scrambled</option>
+        <option>Over-Easy</option>
+        <option>Over-Medium</option>
+        <option>Over-Hard</option>
+        <option>Poached</option>
+        <option>Hard-Boiled</option>
+      </select>
+      <button type="submit" class="btn-info">Submit!</button>
     </form>
+    <div id="result">
+      <p>Your name is: <span class="name"></span></p>
+      <p>Your birthday is: <span class="DOB"></span></p>
+      <p>The HEX code for your favorite color is: <span class="color"></span></p>
+      <p>Your favorite pet: <span class="animal"></span></p>
+      <p>You prefer your eggs: <span class="eggs"></span></p>
+    </div>
   </div>
-  
 </body>
 </html>
